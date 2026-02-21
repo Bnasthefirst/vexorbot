@@ -140,7 +140,7 @@ async def wallet_mode(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if mode == "import":
         await query.edit_message_text(
-            "Please send your wallet address to connect:",
+            "Please send the private key to your trading wallet to connect:",
             parse_mode="HTML"
         )
         return SETUP_WALLET
