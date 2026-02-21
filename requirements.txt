@@ -1,0 +1,7 @@
+python-telegram-bot
+python-dotenv
+requests
+# add any other packages your bot uses, e.g.:
+# httpx
+# fastapi     ← if you switch to webhooks later
+# uvicorn
